@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "name": "drupal-to-craft-cms-docs",
+  "version": "0.1.0",
+  "description": "Drupal to Craft CMS plugin documentation",
+  "main": "",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:dev:gitpage": "cross-env NODE_ENV=production vuepress dev docs",
+    "docs:build:gitpage": "cross-env NODE_ENV=production vuepress build docs",
+    "deploy": "gh-pages -d docs/.vuepress/dist"
+  },
+  "keywords": [
+    "craft",
+    "craft cms",
+    "drupal",
+    "drupal 6",
+    "drupal 7",
+    "drupal 8",
+    "drupal 9",
+    "cms",
+    "migration"
+  ],
+  "author": {
+    "name": "vnali",
+    "email": "vnali.dev@gmail.com",
+    "url": "https://github.com/vnali"
+  },
+  "bugs": {
+    "url": "https://github.com/vnali/drupal-to-craft-cms-docs/issues"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
+    "cross-env": "^7.0.3",
+    "gh-pages": "^3.2.3",
+    "vuepress": "^1.8.2"
+  }
+}
