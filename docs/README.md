@@ -63,7 +63,7 @@ This plugin can migrate menus to [Structure Sections](https://craftcms.com/docs/
 ----
 
 ::: tip
-For all Drupal items, fields are created based on field mapping and added to [Craft Fieldlayout](https://craftcms.com/docs/3.x/fields.html#field-layouts) automatically.
+For all Drupal items, fields are created based on field mapping and added to [Craft field layouts](https://craftcms.com/docs/3.x/fields.html#field-layouts) automatically.
 :::
 
 ::: tip
