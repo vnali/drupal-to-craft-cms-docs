@@ -19,7 +19,7 @@ Drupal 6 and 7 can be converted to 8 or 9 by [Drupal core Migrate modules](https
 ## How migration works
 This plugin connects to Drupal via JSON API.   
 At first, the plugin fetches Drupal fields and generates a mapping table as shown in the image below.   
-After mapping Drupal to Craft fields, the plugin creates requested [custom fields](https://craftcms.com/docs/3.x/table-fields.html#settings) -it can be a simple field -Plain text, Dropdown, ...- , a column in a [table field](https://craftcms.com/docs/3.x/table-fields.html#the-field), or even more complex a field in [super table field ](https://plugins.craftcms.com/super-table) or a field in a [Matrix field](https://craftcms.com/docs/3.x/matrix-fields.html#settings)- and then generates feeds based on the Feed-Me plugin.   
+After mapping Drupal to Craft fields, the plugin creates requested [custom fields](https://craftcms.com/docs/3.x/fields.html) -it can be a simple field -Plain text, Dropdown, ...- , a column in a [table field](https://craftcms.com/docs/3.x/table-fields.html#the-field), or even more complex a field in [super table field ](https://plugins.craftcms.com/super-table) or a field in a [Matrix field](https://craftcms.com/docs/3.x/matrix-fields.html#settings)- and then generates feeds based on the Feed-Me plugin.   
 After running feeds, data is migrated to Craft CMS.
 
 <div>
